@@ -90,9 +90,8 @@ npm install
 Create a `.env` file in the backend directory and configure the required environment variables:
 
 ```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
 GROQ_API_KEY=your_groq_api_key
+PORT=5000
 ```
 
 Add any additional environment variables required by your external integrations.
